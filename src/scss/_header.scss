@@ -1,0 +1,32 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  &__inner {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+
+    &-item {
+      display: inline-block;
+      color: #ffffff;
+      transition: all .2s ease-out;
+
+      &:hover {
+        opacity: .7;
+      }
+    }
+
+    & > * + * {
+      margin-left: 55px;
+    }
+  }
+}
