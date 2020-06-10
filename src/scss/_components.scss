@@ -1,6 +1,6 @@
 // Logo
 .logo {
-  display: flex;
+  display: inline-flex;
   align-items: center;
 
   &__icon {
@@ -13,6 +13,10 @@
     text-transform: uppercase;
     letter-spacing: 5px;
     margin-left: 10px;
+
+    &--black {
+      color: #000;
+    }
   }
 }
 
@@ -239,6 +243,11 @@
       background-color: #fafafa;
       width: calc((100% / 3) - 25px);
       overflow: hidden;
+      transition: all .2s ease-out;
+
+      &:hover {
+        box-shadow: 0 7px 17px rgba(0, 0, 0, 0.3);
+      }
     }
 
     &-photo {
