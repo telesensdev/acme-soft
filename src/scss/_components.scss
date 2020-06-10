@@ -323,3 +323,13 @@
     letter-spacing: 0.21px;
   }
 }
+
+.action {
+  padding: 90px 0;
+  background-image: linear-gradient(to right, #3d7ee0 0%, #3d7dde 100%);
+  text-align: center;
+
+  .btn {
+    margin-top: 75px;
+  }
+}
