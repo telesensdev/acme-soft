@@ -2,6 +2,7 @@
 .logo {
   display: inline-flex;
   align-items: center;
+  white-space: nowrap;
 
   &__icon {
     width: 35px;
@@ -58,7 +59,7 @@
 
   &__scroll-icon {
     position: absolute;
-    bottom: 10px;
+    bottom: 0;
     right: 65px;
     width: 22px;
   }
